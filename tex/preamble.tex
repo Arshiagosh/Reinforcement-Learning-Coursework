@@ -1,0 +1,22 @@
+% Shared preamble for the English summaries in this repository.
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\setlist{itemsep=2pt,topsep=4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\graphicspath{{figures/}}
+\newcommand{\summaryheader}[3]{%
+  \begin{center}
+    {\Large\bfseries #2}\\[3pt]
+    {\large #1}\\[3pt]
+    {\small Arshia Goshtasbi \textbullet{} MSc Electrical Engineering (Control), Iran University of Science and Technology \textbullet{} #3}
+  \end{center}
+  \vspace{2pt}\hrule\vspace{8pt}\par}

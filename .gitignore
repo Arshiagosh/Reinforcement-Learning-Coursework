@@ -1,0 +1,25 @@
+# MATLAB
+*.asv
+*.autosave
+*.mat
+_matlab_logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# LaTeX build files (the compiled PDFs are kept)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
